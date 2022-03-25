@@ -1,0 +1,36 @@
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    padding: 20px 0;
+    background-color: #ffff;
+}
+
+.menu_item {
+    margin-left: 20px;
+}
+
+.menu_item a {
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0.2em;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 12px;
+    text-decoration: none;
+}
+
+.menu_item a:hover {
+    text-decoration: underline overline;
+    cursor: pointer;
+}
+
+.menu_item a:active {
+    text-decoration: underline overline;
+}
