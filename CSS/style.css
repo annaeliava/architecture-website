@@ -1,3 +1,10 @@
+body {
+    margin-left: 8.4375rem;
+    margin-right: 8.4375rem;
+    font-family: Roboto;
+    background: #FFFFFF;
+}
+
 ul,
 li {
     display: block;
@@ -33,4 +40,80 @@ li {
 
 .menu_item a:active {
     text-decoration: underline overline;
+}
+
+.main__title-1 {
+    margin-top: 21rem;
+    width: 17.36rem;
+    height: 4rem;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: rgba(189, 189, 189, 1);
+}
+
+.main__title-2 {
+    margin-bottom: 5.625rem;
+    width: 11.625rem;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: rgba(51, 51, 51, 1);
+}
+
+.btn__arrow-pic {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn__gallery-left {
+    margin-right: 1.43625rem;
+    width: 3.309375rem;
+    height: 3.3125rem;
+    border: 0.0625rem solid #F2F2F2;
+    background: #FFFFFF;
+    color: #333333;
+}
+
+.btn__gallery-right {
+    width: 3.309375rem;
+    height: 3.3125rem;
+    border: 0.0625rem solid #F2F2F2;
+    background: #F9F9F9;
+    color: #333333;
+}
+
+.line {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.slide-numbers {
+    margin-top: 5.625rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #BDBDBD;
+}
+
+.main__pic {
+    margin-top: 0.1875rem;
+    margin-right: 8.4375rem;
+    width: 48.125rem;
+    height: 51.8125rem;
+}
+
+.main__viewer {
+    width: 13.875rem;
+    height: 4.4375rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(51, 51, 51, 1)
+}
+
+.card__viewer {
+    border: none;
 }
