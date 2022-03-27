@@ -42,8 +42,6 @@ li {
     text-decoration: underline overline;
 }
 
-/*Блок Project Lorum*/
-
 .main__title-1 {
     margin-top: 21rem;
     width: 17.36rem;
@@ -114,16 +112,6 @@ li {
     letter-spacing: 0.2em;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(51, 51, 51, 1)
-}
-
-.main__viewer-link {
-    text-decoration: none;
-    color: #000000;
-}
-
-.main__viewer-link:hover {
-    text-decoration: underline;
-    color: #000000;
 }
 
 .card__viewer {
@@ -289,8 +277,6 @@ li {
     height: 9rem;
 }
 
-/*Блок Our Projects*/
-
 .main__title-projects {
     margin-top: 7.5rem;
     margin-bottom: 3.75rem;
@@ -301,57 +287,14 @@ li {
 
 .ourprojects__gallery {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 1.875rem;
-}
-
-.ourprojects__title {
-    font-weight: 700;
-    font-size: 4rem;
-    color: #FFFFFF;
-}
-
-.btn__sample-projects {
-    margin-top: 1rem;
-    margin-bottom: 2.9375rem;
-    width: 8.0625rem;
-    height: 1.5rem;
-    font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
-
-.ourprojects__pic-arrow {
-    margin-right: 22.625rem;
-}
-
-.ourprojects__link {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.ourprojects__link:hover {
-    text-decoration: underline;
-    color: #FFFFFF;
-}
-
-.ourprojects__text {
-    padding-top: 3rem;
-    padding-left: 4.9375rem;
-    padding-right: 16.125rem;
-    width: 35.625rem;
-    height: 15.9375rem;
-    line-height: 4rem;
-    background: #333333;
-    opacity: 0.8;
 }
 
 .ourprojects__pic-1 {
     width: 35.625rem;
     height: 15.9375rem;
+    background-image: url("ourprojects__pic-1.jpg");
 }
 
 .ourprojects__pic-2 {
@@ -376,7 +319,6 @@ li {
 
 .btn__projects {
     margin-top: 1.875rem;
-    margin-right: 3.75rem;
     padding-top: 1.5rem;
     padding-left: 2.4375rem;
     padding-right: 2.488125rem;
@@ -389,15 +331,5 @@ li {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     background-color: rgba(51, 51, 51, 1);
-    color: #FFFFFF;
-}
-
-.allprojects__link {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.allprojects__link:hover {
-    text-decoration: underline;
     color: #FFFFFF;
 }
