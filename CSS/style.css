@@ -13,23 +13,23 @@ li {
 }
 
 .menu-bar {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     background-color: #ffff;
 }
 
 .menu_item {
-    margin-left: 20px;
+    margin-left: 1, 25rem;
 }
 
 .menu_item a {
     font-family: 'roboto', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0, 75rem;
     color: #333333;
     letter-spacing: 0.2em;
     font-style: normal;
     text-transform: uppercase;
-    line-height: 12px;
+    line-height: 0, 75rem;
     text-decoration: none;
 }
 
@@ -132,107 +132,107 @@ li {
 
 /* Для блока about, десктоп*/
 @media screen and (min-width: 1024px) {
-.about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 1.875rem;
-    padding-top: 7.5rem;
-}
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1.875rem;
+        padding-top: 7.5rem;
+    }
 
-.about-photo_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.875rem;
-    padding-left: 6.25rem;
-}
+    .about-photo_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.875rem;
+        padding-left: 6.25rem;
+    }
 
-.about-photo_container_col1 {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 0.625rem;
-}
+    .about-photo_container_col1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 0.625rem;
+    }
 
-.about-photo_container_col1-1 {
-    position: relative;
-    left: 1em;
-    width: 16.875rem;
-    height: 16.563rem;
-}
+    .about-photo_container_col1-1 {
+        position: relative;
+        left: 1em;
+        width: 16.875rem;
+        height: 16.563rem;
+    }
 
-.about-photo_container_col1-2 {
-    width: 16.875rem;
-    height: 8.75rem;
-}
+    .about-photo_container_col1-2 {
+        width: 16.875rem;
+        height: 8.75rem;
+    }
 
-.about-photo_container_col2-1 {
-    position: relative;
-    top: 1em;
-    width: 16.875rem;
-    height: 21.563rem;
-}
+    .about-photo_container_col2-1 {
+        position: relative;
+        top: 1em;
+        width: 16.875rem;
+        height: 21.563rem;
+    }
 
-.text {
-    margin-top: 2em;
-}
+    .text {
+        margin-top: 2em;
+    }
 
-.about-text text {
-    width: 25rem;
-    height: 12.5rem;
-}
+    .about-text text {
+        width: 25rem;
+        height: 12.5rem;
+    }
 
-.title {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 4rem;
-    line-height: 4rem;
-    color: #BDBDBD;
-}
+    .title {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 4rem;
+        line-height: 4rem;
+        color: #BDBDBD;
+    }
 
-.text {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.563rem;
-    color: #000000;
-}
+    .text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1.563rem;
+        color: #000000;
+    }
 
-.about-text_container {
-    padding-right: 4.375rem;
-}
+    .about-text_container {
+        padding-right: 4.375rem;
+    }
 
-.about-text_container_more {
-    display: flex;
-    justify-content: space-between;
-    width: 7.688rem;
-    height: 1.5rem;
-    margin-top: 2.5rem;
-    margin-left: 2.5rem;
-}
+    .about-text_container_more {
+        display: flex;
+        justify-content: space-between;
+        width: 7.688rem;
+        height: 1.5rem;
+        margin-top: 2.5rem;
+        margin-left: 2.5rem;
+    }
 
-.about-text_container_more-arrow {
-    width: 1.5rem;
-    height: 1.5rem;
-}
+    .about-text_container_more-arrow {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 
-.about-text_container_more-readmore {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 1.875rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #333333;
-}
+    .about-text_container_more-readmore {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 1.875rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #333333;
+    }
 
-.about_link-readmore {
-    text-decoration: none;
-}
+    .about_link-readmore {
+        text-decoration: none;
+    }
 
-.about_link-readmore:hover {
-    text-decoration: underline;
-    color: black;
-}
+    .about_link-readmore:hover {
+        text-decoration: underline;
+        color: black;
+    }
 }
 
 /* Для блока MainFocus */
@@ -413,6 +413,7 @@ li {
         margin-right: 1rem;
     }
 }
+
 /* Блок about, планшет */
 @media (min-width: 768px) and (max-width: 1023px) {
     .about {
@@ -422,30 +423,34 @@ li {
         gap: 2rem;
         padding-top: 5rem;
     }
+
     .about-photo_container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1.875rem;
         padding-left: 6.25rem;
     }
+
     .about-photo_container_col1 {
         display: none;
     }
+
     .about-photo_container_col2-1 {
         position: relative;
         top: 1em;
         width: 16.875rem;
         height: 21.563rem;
     }
-    
+
     .text {
         margin-top: 2em;
     }
-    
+
     .about-text text {
         width: 25rem;
         height: 12.5rem;
     }
+
     .title {
         font-style: normal;
         font-weight: 300;
@@ -453,6 +458,7 @@ li {
         line-height: 4rem;
         color: #BDBDBD;
     }
+
     .text {
         font-style: normal;
         font-weight: 300;
@@ -460,9 +466,11 @@ li {
         line-height: 1.563rem;
         color: #000000;
     }
+
     .about-text_container {
         padding-right: 4.375rem;
     }
+
     .about-text_container_more {
         display: flex;
         justify-content: space-between;
@@ -471,10 +479,12 @@ li {
         margin-top: 2.5rem;
         margin-left: 2.5rem;
     }
+
     .about-text_container_more-arrow {
         width: 1.5rem;
         height: 1.5rem;
     }
+
     .about-text_container_more-readmore {
         font-style: normal;
         font-weight: 400;
@@ -484,13 +494,16 @@ li {
         text-transform: uppercase;
         color: #333333;
     }
+
     .about_link-readmore {
         text-decoration: none;
     }
+
     .about_link-readmore:hover {
         text-decoration: underline;
         color: black;
     }
+
     /* Блок main-focus, планшет */
     .main-focus title {
         width: 55rem;
@@ -499,25 +512,25 @@ li {
         top: 102.438rem;
         margin-top: 5rem;
     }
-    
+
     .main-focus_container {
         margin-top: 5em;
         display: flex;
         justify-content: space-between;
     }
-    
+
     .main-focus_container-1 {
         display: flex;
         justify-content: left;
     }
-    
+
     .main-focus_container-2 {
         display: flex;
         justify-content: left;
         width: 35.625rem;
         height: 9rem;
     }
-    
+
     .main-focus_number {
         width: 6.5rem;
         height: 8.75rem;
@@ -529,7 +542,7 @@ li {
         align-items: center;
         color: #F2F2F2
     }
-    
+
     .main-focus_text {
         width: 17.438rem;
         height: 9rem;
@@ -539,29 +552,33 @@ li {
         line-height: 2.25rem;
         color: #333333;
     }
-    
+
     .main-focus_container-2_text2 {
         width: 35.625rem;
         height: 9rem;
     }
 }
+
 /* Блок about, мобилка */
 @media (min-width: 0px) and (max-width: 767px) {
     .about {
         padding-top: 5rem;
         width: 100%;
     }
+
     .about-photo_container {
         display: none;
     }
+
     .text {
         margin-top: 2em;
     }
-    
+
     .about-text text {
         width: 25rem;
         height: 12.5rem;
     }
+
     .title {
         font-style: normal;
         font-weight: 300;
@@ -569,6 +586,7 @@ li {
         line-height: 4rem;
         color: #BDBDBD;
     }
+
     .text {
         font-style: normal;
         font-weight: 300;
@@ -576,21 +594,25 @@ li {
         line-height: 1.563rem;
         color: #000000;
     }
+
     .about-text_container {
         padding-right: 4.375rem;
     }
+
     .about-text_container_more {
         display: flex;
         justify-content: space-between;
         width: 7.688rem;
         height: 1.5rem;
         margin-top: 1rem;
-        
+
     }
+
     .about-text_container_more-arrow {
         width: 1.5rem;
         height: 1.5rem;
     }
+
     .about-text_container_more-readmore {
         font-style: normal;
         font-weight: 400;
@@ -600,13 +622,16 @@ li {
         text-transform: uppercase;
         color: #333333;
     }
+
     .about_link-readmore {
         text-decoration: none;
     }
+
     .about_link-readmore:hover {
         text-decoration: underline;
         color: black;
     }
+
     /* Блок main-focus, мобилка */
     .main-focus title {
         width: 55rem;
@@ -615,7 +640,7 @@ li {
         top: 102.438rem;
         margin-top: 5rem;
     }
-    
+
     .main-focus_container {
         margin-top: 5em;
         margin-bottom: 5rem;
@@ -624,19 +649,19 @@ li {
         justify-content: space-between;
         gap: 5rem;
     }
-    
+
     .main-focus_container-1 {
         display: flex;
         justify-content: left;
     }
-    
+
     .main-focus_container-2 {
         display: flex;
         justify-content: left;
         width: 35.625rem;
         height: 9rem;
     }
-    
+
     .main-focus_number {
         width: 6.5rem;
         height: 8.75rem;
@@ -648,7 +673,7 @@ li {
         align-items: center;
         color: #F2F2F2
     }
-    
+
     .main-focus_text {
         width: 17.438rem;
         height: 9rem;
@@ -658,9 +683,38 @@ li {
         line-height: 2.25rem;
         color: #333333;
     }
-    
+
     .main-focus_container-2_text2 {
         width: 35.625rem;
         height: 9rem;
     }
+}
+
+/* Для блока Contact */
+.contact h2 {
+    font-size: 4rem;
+    color: #BDBDBD;
+    font-weight: 300;
+}
+
+.form-group {
+    display: grid;
+    height: 22rem;
+    align-items: stretch;
+    grid-gap: 1rem;
+
+
+}
+
+.form-control {
+    background-color: #F3F3F3;
+    color: #8D8D8D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.04em;
+
+
+
 }
