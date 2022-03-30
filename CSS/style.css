@@ -716,7 +716,28 @@ li {
     font-size: 0.875rem;
     line-height: 2.25rem;
     letter-spacing: 0.04em;
+}
 
+.btn__contact {
+    margin-top: 1.875rem;
+    margin-right: 3.75rem;
+    padding-top: 1.5rem;
+    padding-left: 2.4375rem;
+    padding-right: 2.488125rem;
+    padding-bottom: 1.4375rem;
+    width: 13.863125rem;
+    height: 4.4375rem;
+    font-weight: 400;
+    font-size: 0.75rem;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background-color: rgba(51, 51, 51, 1);
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
-
+.btn__contact:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
 }
