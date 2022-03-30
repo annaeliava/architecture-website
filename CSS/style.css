@@ -403,6 +403,9 @@ li {
     text-decoration: underline;
     color: #FFFFFF;
 }
+
+
+
 /* Адаптив. (Десктоп- от 1024px. Планшет- от 768 до 1023.мобилка- от 0 до 767): */
 @media (min-width: 768px) and (max-width: 1023px) {
     body {
