@@ -4,6 +4,7 @@ body {
     font-family: Roboto;
     background: #FFFFFF;
 }
+
 /* Блок Header */
 ul,
 li {
@@ -11,79 +12,94 @@ li {
     padding: 0;
     margin: 0;
 }
+
 .menu-bar {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     background-color: #ffff;
 }
+
 .menu_item {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
+
 .menu_item a {
     font-family: 'roboto', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #333333;
     letter-spacing: 0.2em;
     font-style: normal;
     text-transform: uppercase;
-    line-height: 12px;
+    line-height: 0.75rem;
     text-decoration: none;
 }
+
 .menu_item a:hover {
     text-decoration: underline overline;
     cursor: pointer;
 }
+
 .menu_item a:active {
     text-decoration: underline overline;
 }
+
 /* Блок Contact Information */
-.container_contacts{
+.container_contacts {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 5rem;
 }
-.container_contacts_text{
+
+.container_contacts_text {
     margin-right: 6.25rem;
-    
+
 }
-.container_contacts_text-contact-information{
+
+.container_contacts_text-contact-information {
     margin-bottom: 34px;
 }
-.container_contacts_text2{
+
+.container_contacts_text2 {
     margin-bottom: 44px;
 }
-.contacts_title{
+
+.contacts_title {
     font-weight: 300;
     font-size: 64px;
     color: #BDBDBD;
 }
-.contacts_title-bold{
+
+.contacts_title-bold {
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #333333;
 }
-.container_contacts_text2-company-name{
+
+.container_contacts_text2-company-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
 }
-.container_contacts_text2-address{
+
+.container_contacts_text2-address {
     font-weight: 300;
     font-size: 16px;
     line-height: 21px;
     color: #333333;
 }
-.container_text-number{
+
+.container_text-number {
     margin-bottom: 53px;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
 }
-.container_text-email{
+
+.container_text-email {
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
@@ -91,24 +107,28 @@ li {
     text-decoration: none;
     margin-bottom: 33px;
 }
-.btn_contacts{
+
+.btn_contacts {
     width: 221.81px;
     height: 71px;
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     background-color: rgba(51, 51, 51, 1);
     color: #FFFFFF;
-} 
-.btn_contacts:hover{
-border-color: #BDBDBD;
-border-radius: 10px;
 }
+
+.btn_contacts:hover {
+    border-color: #BDBDBD;
+    border-radius: 10px;
+}
+
 @media (min-width: 0px) and (max-width: 767px) {
-    .container_contacts_text2{
+    .container_contacts_text2 {
         margin-bottom: 2rem;
     }
-    .container_text-number{
+
+    .container_text-number {
         margin-bottom: 2rem;
     }
 }

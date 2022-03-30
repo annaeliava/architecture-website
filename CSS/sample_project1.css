@@ -14,23 +14,23 @@ li {
 }
 
 .menu-bar {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     background-color: #ffff;
 }
 
 .menu_item {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .menu_item a {
     font-family: 'roboto', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #333333;
     letter-spacing: 0.2em;
     font-style: normal;
     text-transform: uppercase;
-    line-height: 12px;
+    line-height: 0.75rem;
     text-decoration: none;
 }
 
@@ -48,12 +48,14 @@ li {
     margin-top: 4.563rem;
     margin-bottom: 3.75rem;
 }
+
 .container_sampleproject {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 26.188rem 45.063rem;
     grid-gap: 1.875rem;
 }
+
 .title_sampleprokect-1 {
     padding-left: 0.813rem;
     font-weight: 300;
@@ -61,32 +63,38 @@ li {
     color: #BDBDBD;
     line-height: 4rem;
 }
+
 .title_sampleprokect-2 {
     font-weight: 700;
     font-size: 4rem;
     line-height: 4rem;
     color: #333333;
 }
+
 .container_sampleproject_img-1,
 .container_sampleproject_img-3 {
     grid-column: 1 / 3;
 }
+
 .container_sampleproject_img-1,
 .container_sampleproject_img-2,
 .container_sampleproject_img-3 {
     max-width: 100%;
 }
+
 @media (min-width: 0px) and (max-width: 767px) {
     .title_sampleprokect {
         margin-top: 4.563rem;
         margin-bottom: 3.75rem;
     }
+
     .container_sampleproject {
         display: grid;
         grid-template-rows: 26.75rem 1fr;
         grid-template-columns: 1fr;
         grid-gap: 1.875rem;
     }
+
     .title_sampleprokect-1 {
         padding-left: 0.813rem;
         font-weight: 300;
@@ -94,18 +102,20 @@ li {
         color: #BDBDBD;
         line-height: 4rem;
     }
+
     .title_sampleprokect-2 {
         font-weight: 700;
         font-size: 4rem;
         line-height: 4rem;
         color: #333333;
     }
+
     .container_sampleproject_img-1,
     .container_sampleproject_img-3 {
         display: none;
     }
-    .container_sampleproject_img-2
-   {
+
+    .container_sampleproject_img-2 {
         max-width: 100%;
     }
 }
