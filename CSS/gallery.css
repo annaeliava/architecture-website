@@ -15,23 +15,23 @@ li {
 }
 
 .menu-bar {
-    padding: 20px 0;
+    padding: 1.25rem 0;
     background-color: #ffff;
 }
 
 .menu_item {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .menu_item a {
     font-family: 'roboto', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #333333;
     letter-spacing: 0.2em;
     font-style: normal;
     text-transform: uppercase;
-    line-height: 12px;
+    line-height: 0.75rem;
     text-decoration: none;
 }
 
