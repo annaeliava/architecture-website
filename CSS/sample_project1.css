@@ -56,6 +56,12 @@ li {
     grid-gap: 1.875rem;
 }
 
+.logo {
+    width: 4.375rem;
+    height: 3.7319rem;
+    max-width: 100%;
+}
+
 .title_sampleprokect-1 {
     padding-left: 0.813rem;
     font-weight: 300;

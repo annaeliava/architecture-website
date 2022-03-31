@@ -43,6 +43,12 @@ li {
     text-decoration: underline overline;
 }
 
+.logo {
+    width: 4.375rem;
+    height: 3.7319rem;
+    max-width: 100%;
+}
+
 /* Блок Contact Information */
 .container_contacts {
     display: flex;
