@@ -423,6 +423,27 @@ li {
     color: #FFFFFF;
 }
 
+/*Блок Project Lorum*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .line {
+        display: none;
+    }
+
+    .container__slide-numbers {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .line {
+        display: none;
+    }
+
+    .container__slide-numbers {
+        display: none;
+    }
+}
+
 /* Адаптив. (Десктоп- от 1024px. Планшет- от 768 до 1023.мобилка- от 0 до 767): */
 @media (min-width: 768px) and (max-width: 1023px) {
     body {
