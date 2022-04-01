@@ -87,7 +87,10 @@ li {
 .container_sampleproject_img-3 {
     max-width: 100%;
 }
-
+.sampleproject_image{
+    width: 100%;
+height: auto;
+}
 @media (min-width: 0px) and (max-width: 767px) {
     .title_sampleprokect {
         margin-top: 4.563rem;
@@ -118,7 +121,7 @@ li {
 
     .container_sampleproject_img-1,
     .container_sampleproject_img-3 {
-        display: none;
+        display: none;   
     }
 
     .container_sampleproject_img-2 {

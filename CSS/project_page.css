@@ -50,116 +50,186 @@ li {
 }
 
 /* Блок OurProjects-Page */
-.OurProjects__title,
-.OurProjects__title-bold {
+.ourprojects__title,
+.ourprojects__title-bold {
     font-size: 4rem;
     line-height: 4rem;
 }
 
-.OurProjects__title {
+.ourprojects__title {
     margin-top: 3.9375rem;
     font-weight: 300;
     color: #BDBDBD;
 }
-
-.OurProjects__title-bold {
+.ourprojects__title-bold {
     margin-bottom: 1.875rem;
     font-weight: 700;
     color: #333333;
 }
-
-
-
-
-
-
-
-/* 
-.container_contacts {
+.container_ourprojects{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 5rem;
+    flex-direction:column; 
+    gap: 3.75rem;
+    height: 100%;
 }
 
-.container_contacts_text {
-    margin-right: 6.25rem;
-
+.container_ourprojects-sampleproject1,.container_ourprojects-sampleproject2,.container_ourprojects-sampleproject3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 27.188rem;
+    gap: 2rem;
 }
 
-.container_contacts_text-contact-information {
-    margin-bottom: 34px;
+.sampleproject_image{
+    width: 100%;
+height: auto;
 }
 
-.container_contacts_text2 {
-    margin-bottom: 44px;
-}
 
-.contacts_title {
+/* Текст sampleproject */
+.sampleprojects_title{
     font-weight: 300;
-    font-size: 64px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #BDBDBD;
+    margin-bottom: 4.563rem;
+    margin-top: 1rem;
+}
+.sampleprojects_text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 4rem;
+}
+/* Кнопка view more */
+.ourprojects-text_container_more {
+    display: flex;
+    justify-content: space-between;
+    width: 7.688rem;
+    height: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+
+.ourprojects-text_container_more-arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.ourprojects-text_container_more-viewmore {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.ourprojects_link-viewmore {
+    text-decoration: none;
+}
+
+.ourprojects_link-viewmore:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* Стрелки в конце страницы */
+.slide-numbers {
+    width: 21.875rem;
+    height: 3.9375rem;
+}
+
+.slide-numbers__start {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.slide-numbers__pic {
+    margin-left: 1.62375rem;
+    margin-right: 2.373125rem;
+}
+
+.slide-numbers__pic-1 {
+    width: 2.73875rem;
+}
+
+.slide-numbers__end {
+    font-weight: 400;
+    font-size: 1.5rem;
     color: #BDBDBD;
 }
-
-.contacts_title-bold {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
+.btn__ourprojects-left {
+    margin-left: 1.81875rem;
+    width: 3.309375rem;
+    height: 3.3125rem;
+    border: 0.0625rem solid #F2F2F2;
+    background: #FFFFFF;
     color: #333333;
 }
 
-.container_contacts_text2-company-name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+.btn__ourprojects-right {
+    width: 3.309375rem;
+    height: 3.3125rem;
+    border: 0.0625rem solid #F2F2F2;
+    background: #F9F9F9;
     color: #333333;
 }
 
-.container_contacts_text2-address {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 21px;
-    color: #333333;
+
+
+
+
+/* Адаптив. (Десктоп- от 1024px. Планшет- от 768 до 1023.мобилка- от 0 до 767): */
+/*планшет */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sampleprojects_title{
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 47px;
+        color: #BDBDBD;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .sampleprojects_text{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #000000;
+        margin-bottom: 4rem;
+    }
 }
 
-.container_text-number {
-    margin-bottom: 53px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    color: #333333;
-}
-
-.container_text-email {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    color: #333333;
-    text-decoration: none;
-    margin-bottom: 33px;
-}
-
-.btn_contacts {
-    width: 221.81px;
-    height: 71px;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    background-color: rgba(51, 51, 51, 1);
-    color: #FFFFFF;
-}
-
-.btn_contacts:hover {
-    border-color: #BDBDBD;
-    border-radius: 10px;
-}
-
+/*  мобилка */
 @media (min-width: 0px) and (max-width: 767px) {
-    .container_contacts_text2 {
-        margin-bottom: 2rem;
+    .container_ourprojects-sampleproject1,.container_ourprojects-sampleproject2,.container_ourprojects-sampleproject3{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
     }
-
-    .container_text-number {
-        margin-bottom: 2rem;
+    .sampleprojects_title{
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 47px;
+        color: #BDBDBD;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
-} */
+    .sampleprojects_text{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: #000000;
+        margin-bottom: 1rem;
+    }
+    .ourprojects-text_container_more {
+        
+        margin-top: 1px;
+        margin-left: 2.5rem;
+    }
+}
