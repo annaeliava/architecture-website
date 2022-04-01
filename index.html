@@ -43,7 +43,7 @@
         <!--блок Project Lorum-->
         <div class="container projectlorum">
             <div class="row no-gutters">
-                <div class="col-xl-4 col-l-4 col-md-12 col-sm-12 align-self-center">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 align-self-center">
                     <h1 class="main__title-1">PROJECT</h1>
                     <h1 class="main__title-2">Lorum</h1>
                     <button class="btn btn__gallery-left">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-xl-8 col-l-12 col-md-12 col-sm-12 card__viewer">
+                <div class="card col-xl-8 col-lg-12 col-md-12 col-sm-12 card__viewer">
                     <figure class="main__figure">
                         <img class="main__pic" src="img/main__gallery-pic.png" alt="building">
                         <div class="d-flex align-items-end flex-column bd-highlight mb-3">
@@ -143,13 +143,13 @@
             </div>
         </div>
         <!--блок Our Projects-->
-        <h1 class="main__title-projects">Our Projects</h1>
+        <h1 class="ourprojects__title">Our Projects</h1>
         <div class="container__ourprojects">
             <div style="background-image:url(img/ourprojects__pic1.jpg)" class="ourprojects__pic-1">
-                <div class="ourprojects__text">
-                    <div class="ourprojects__title">Sample Project</div>
-                    <div class="btn__sample-projects">
-                        <a href="#" class="ourprojects__link">
+                <div class="bg__text">
+                    <div class="bg__title">Sample Project</div>
+                    <div class="btn__sampleprojects">
+                        <a href="#" class="btn__sampleprojects-link">
                             <div class="row no-gutters">
                                 <div class="col-10">View More</div>
                                 <div class="col-2">
@@ -161,25 +161,27 @@
                     </div>
                 </div>
             </div>
-            <img class="ourprojects__pic-2" src="img/ourprojects__pic2.jpg" alt="Building-2">
-            <img class="ourprojects__pic-3" src="img/ourprojects__pic3.jpg" alt="Building-3">
-            <img class="ourprojects__pic-4" src="img/ourprojects__pic4.jpg" alt="Building-4">
-            <img class="ourprojects__pic-5" src="img/ourprojects__pic5.jpg" alt="Building-5">
-        </div>
-        <div class="container">
-            <div class="row no-gutters">
-                <div class="col d-flex justify-content-end">
-                    <div class="btn__projects">
-                        <a href="#" class="allprojects__link">
-                            <div class="row no-gutters">
-                                <div class="col-10">All Projects</div>
-                                <div class="col-2">
-                                    <img src="img/ourprojects__whitearrow.svg" alt="WhiteArrow">
-                                </div>
-                            </div>
-                        </a>
+            <div class="ourprojects__pic-2">
+                <img src="img/ourprojects__pic2.jpg" alt="Building-2">
+            </div>
+            <div class="ourprojects__pic-3">
+                <img src="img/ourprojects__pic3.jpg" alt="Building-3">
+            </div>
+            <div class="ourprojects__pic-4">
+                <img src="img/ourprojects__pic4.jpg" alt="Building-4">
+            </div>
+            <div class="ourprojects__pic-5">
+                <img src="img/ourprojects__pic5.jpg" alt="Building-5">
+            </div>
+            <div class="btn__projects">
+                <a href="#" class="allprojects__link">
+                    <div class="row no-gutters">
+                        <div class="col-10">All Projects</div>
+                        <div class="col-2">
+                            <img src="img/ourprojects__whitearrow.svg" alt="WhiteArrow">
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <!--блок Contact Us-->
@@ -193,7 +195,7 @@
                     </div>
                     <div class="col-3 align-self-start">
                         <form>
-                            <fieldset disabled>
+                            <fieldset>
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Name">
                                     <input type="number" class="form-control" placeholder="Phone Number*">
