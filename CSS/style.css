@@ -759,6 +759,7 @@ li {
     height: 22rem;
     align-items: stretch;
     grid-gap: 1rem;
+    border-radius: 0;
 
 
 }
