@@ -212,12 +212,10 @@
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col d-flex justify-content-start">
-                                <!-- Button trigger modal -->
-                                <button type="submit button" class="btn btn__contact btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#staticBackdrop">
-                                    Send Email
-                                    <img src="img/index/ourprojects__whitearrow.svg" alt="WhiteArrow">
-                                </button>
+                                <div class="modaloknobutton">
+                                    <a class="vizovokna" href="#modalokno1">Send Email <img
+                                            src="img/index/ourprojects__whitearrow.svg" alt="WhiteArrow"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -225,23 +223,16 @@
             </div>
         </div>
         <!--Всплывающее модальное окно-->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header justify-content-center">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <img src="img/index/success.svg" alt="success">
-                        <h5 class="modal-title" id="staticBackdropLabel">Спасибо !</h5>
-                    </div>
-                    <div class="modal-body">
-                        <p class="modaltext text-center">Ваше сообщение отправлено мы свяжемся с вами в ближайшее время
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-dark btn-block" data-bs-dismiss="modal">Вернуться
-                            назад</button>
-                    </div>
+        <div id="modalokno1" class="modaloknoview">
+            <div class="modalokno">
+                <a class="close" href="#">×</a>
+                <img class="success" src="img/index/success.svg" alt="success">
+                <h2>Спасибо !</h2>
+                <div class="modalokno_text">
+                    Ваше сообщение отправлено мы свяжемся с вами в ближайшее время
+                </div>
+                <div class="returnButton">
+                    <a class="return" href="#">ВЕРНУТЬСЯ НАЗАД</a>
                 </div>
             </div>
         </div>

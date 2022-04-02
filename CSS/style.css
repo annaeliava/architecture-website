@@ -808,3 +808,119 @@ li {
         width: 500px;
     }
 }
+/* Всплывающее модальное окно */
+.modaloknobutton {
+    margin-top: 1.875rem;
+    margin-right: 3.75rem;
+    padding-top: 1.5rem;
+    padding-left: 2.4375rem;
+    padding-right: 2.488125rem;
+    padding-bottom: 1.4375rem;
+    width: 13.863125rem;
+    height: 4.4375rem;
+    font-weight: 400;
+    font-size: 0.75rem;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background-color: #333333;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+.vizovokna {
+    font-size: 0.75rem;
+    padding: 9px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.modalokno:hover {
+    background: #333333;
+}
+
+.modaloknoview {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333333;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.modaloknoview:target {
+    visibility: visible;
+    opacity: 1;
+}  
+.modalokno {
+    margin: auto;
+    padding: 1.5rem;
+    background: #FFFFFF;
+    width: 32.25rem;
+    height: 26.3125rem;
+    position: relative;
+    transition: all 10s ease-in-out;
+}
+.modalokno h2 {
+    margin-top: 1.5rem;
+    color: #333333;
+    text-align: center;
+
+}
+.success {
+    width: 8.875rem;
+    height: 8.875rem;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+.modalokno .close {
+    position: absolute;
+    top: 0.8125rem;
+    right: 0.8125rem;
+    transition: all 200ms;
+    font-size: 0.8125rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+}
+.modalokno .close:hover {
+    color: #FFFFFF;
+}
+.modalokno .modalokno_text {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center;
+}
+.returnButton {
+    margin-top: 2.5625rem;
+    margin-right: 3.9375rem;
+    margin-left: 2.9375rem;
+    width: 24.4375rem;
+    height: 2.625rem;
+    border-radius: 0;
+    background-color: #333333;
+    text-align: center;
+}
+.return{
+    
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    text-decoration: none;
+    
+
+}
+.return:hover {
+    color: #8D8D8D;
+}
+@media screen and (max-width: 700px){
+    .box{
+    width: 70%;
+    }
+    .modalokno{
+    width: 70%;
+    }
+}
