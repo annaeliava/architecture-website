@@ -212,7 +212,9 @@
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col d-flex justify-content-start">
-                                <button type="submit" class="btn__contact">
+                                <!-- Button trigger modal -->
+                                <button type="submit button" class="btn btn__contact btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
                                     Send Email
                                     <img src="img/index/ourprojects__whitearrow.svg" alt="WhiteArrow">
                                 </button>
@@ -222,6 +224,29 @@
                 </div>
             </div>
         </div>
+        <!--Всплывающее модальное окно-->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <img src="#" alt="success">
+                        <h5 class="modal-title" id="staticBackdropLabel">Спасибо !</h5>
+
+                    </div>
+                    <div class="modal-body">
+                        <p class="modaltext text-center">Ваше сообщение отправлено мы свяжемся с вами в ближайшее время
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark btn-block" data-bs-dismiss="modal">Вернуться
+                            назад</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Всплывающее модальное окно-->
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
