@@ -5,6 +5,7 @@ body {
     background: #FFFFFF;
     /* width: 100%; */
 }
+
 /*Блок Header*/
 ul,
 li {
@@ -615,7 +616,7 @@ li {
 
 /* Блок about, мобилка */
 @media (min-width: 0px) and (max-width: 767px) {
-    body{
+    body {
         width: 100%;
     }
 
@@ -839,6 +840,7 @@ li {
         width: 500px;
     }
 }
+
 /* Всплывающее модальное окно */
 .modaloknobutton {
     margin-top: 1.875rem;
@@ -859,6 +861,7 @@ li {
     text-decoration: none;
     text-align: center;
 }
+
 .vizovokna {
     font-size: 0.75rem;
     padding: 9px;
@@ -867,6 +870,7 @@ li {
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
+
 .modalokno:hover {
     background: #333333;
 }
@@ -882,10 +886,12 @@ li {
     visibility: hidden;
     opacity: 0;
 }
+
 .modaloknoview:target {
     visibility: visible;
     opacity: 1;
-}  
+}
+
 .modalokno {
     margin: auto;
     padding: 1.5rem;
@@ -895,12 +901,14 @@ li {
     position: relative;
     transition: all 10s ease-in-out;
 }
+
 .modalokno h2 {
     margin-top: 1.5rem;
     color: #333333;
     text-align: center;
 
 }
+
 .success {
     width: 8.875rem;
     height: 8.875rem;
@@ -908,6 +916,7 @@ li {
     margin: auto;
     padding: auto;
 }
+
 .modalokno .close {
     position: absolute;
     top: 0.8125rem;
@@ -918,14 +927,17 @@ li {
     text-decoration: none;
     color: #333333;
 }
+
 .modalokno .close:hover {
     color: #FFFFFF;
 }
+
 .modalokno .modalokno_text {
     max-height: 30%;
     overflow: auto;
     text-align: center;
 }
+
 .returnButton {
     margin-top: 2.5625rem;
     margin-right: 3.9375rem;
@@ -936,22 +948,104 @@ li {
     background-color: #333333;
     text-align: center;
 }
-.return{
-    
+
+.return {
+
     color: #FFFFFF;
     font-size: 0.75rem;
     text-decoration: none;
-    
+
 
 }
+
 .return:hover {
     color: #8D8D8D;
 }
-@media screen and (max-width: 700px){
-    .box{
-    width: 70%;
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
     }
-    .modalokno{
-    width: 70%;
+
+    .modalokno {
+        width: 70%;
+    }
+}
+
+/* Footer */
+.footer_top {
+    background-color: #2C2C2C;
+    padding: 50px 0;
+
+}
+
+.block {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px 0px 20px 0px;
+}
+
+.menu-footer_item:not(:last-child) {
+    margin: 0px 0px 16px 0px;
+}
+
+.menu-footer_link {
+    color: #fff;
+    display: inline-block;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.menu-footer_link :hover {
+    text-decoration: underline;
+}
+
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacts-footer_item {
+    padding: 0px 0px 0px 35px;
+    line-height: 142%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    min-height: 30px;
+}
+
+.contacts-footer_item:hover {
+    text-decoration: underline;
+}
+
+.contacts-footer_item:not(:last-child) {
+    margin: 0px 0px 32px 0px;
+}
+
+.contacts-footer_item_map {
+    background: url("../img/Footer/Vector1.svg") 0 0 no-repeat
+}
+
+.contacts-footer_item_phone {
+    background: url("../img/Footer/Vector2.svg") left no-repeat;
+}
+
+.contacts-footer_item_email {
+    background: url("../img/Footer/Mail.svg") left no-repeat
+}
+
+.social-footer_item {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 767px) {
+    .footer_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
