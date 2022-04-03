@@ -61,33 +61,37 @@ li {
     font-weight: 300;
     color: #BDBDBD;
 }
+
 .ourprojects__title-bold {
     margin-bottom: 1.875rem;
     font-weight: 700;
     color: #333333;
 }
-.container_ourprojects{
+
+.container_ourprojects {
     display: flex;
-    flex-direction:column; 
+    flex-direction: column;
     gap: 3.75rem;
     height: 100%;
 }
 
-.container_ourprojects-sampleproject1,.container_ourprojects-sampleproject2,.container_ourprojects-sampleproject3{
+.container_ourprojects-sampleproject1,
+.container_ourprojects-sampleproject2,
+.container_ourprojects-sampleproject3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 27.188rem;
     gap: 2rem;
 }
 
-.sampleproject_image{
+.sampleproject_image {
     width: 100%;
-height: auto;
+    height: auto;
 }
 
 
 /* Текст sampleproject */
-.sampleprojects_title{
+.sampleprojects_title {
     font-weight: 300;
     font-size: 40px;
     line-height: 47px;
@@ -95,13 +99,15 @@ height: auto;
     margin-bottom: 4.563rem;
     margin-top: 1rem;
 }
-.sampleprojects_text{
+
+.sampleprojects_text {
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
     color: #000000;
     margin-bottom: 4rem;
 }
+
 /* Кнопка view more */
 .ourprojects-text_container_more {
     display: flex;
@@ -163,6 +169,7 @@ height: auto;
     font-size: 1.5rem;
     color: #BDBDBD;
 }
+
 .btn__ourprojects-left {
     margin-left: 1.81875rem;
     width: 3.309375rem;
@@ -187,7 +194,7 @@ height: auto;
 /* Адаптив. (Десктоп- от 1024px. Планшет- от 768 до 1023.мобилка- от 0 до 767): */
 /*планшет */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .sampleprojects_title{
+    .sampleprojects_title {
         font-weight: 300;
         font-size: 40px;
         line-height: 47px;
@@ -195,7 +202,8 @@ height: auto;
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
-    .sampleprojects_text{
+
+    .sampleprojects_text {
         font-weight: 300;
         font-size: 16px;
         line-height: 25px;
@@ -206,13 +214,17 @@ height: auto;
 
 /*  мобилка */
 @media (min-width: 0px) and (max-width: 767px) {
-    .container_ourprojects-sampleproject1,.container_ourprojects-sampleproject2,.container_ourprojects-sampleproject3{
+
+    .container_ourprojects-sampleproject1,
+    .container_ourprojects-sampleproject2,
+    .container_ourprojects-sampleproject3 {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         gap: 1rem;
     }
-    .sampleprojects_title{
+
+    .sampleprojects_title {
         font-weight: 300;
         font-size: 40px;
         line-height: 47px;
@@ -220,16 +232,97 @@ height: auto;
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
-    .sampleprojects_text{
+
+    .sampleprojects_text {
         font-weight: 300;
         font-size: 16px;
         line-height: 25px;
         color: #000000;
         margin-bottom: 1rem;
     }
+
     .ourprojects-text_container_more {
-        
+
         margin-top: 1px;
         margin-left: 2.5rem;
+    }
+}
+
+/* Footer */
+.footer_top {
+    background-color: #2C2C2C;
+    padding: 50px 0;
+
+}
+
+.block {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px 0px 20px 0px;
+}
+
+.menu-footer_item:not(:last-child) {
+    margin: 0px 0px 16px 0px;
+}
+
+.menu-footer_link {
+    color: #fff;
+    display: inline-block;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.menu-footer_link :hover {
+    text-decoration: underline;
+}
+
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacts-footer_item {
+    padding: 0px 0px 0px 35px;
+    line-height: 142%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    min-height: 30px;
+}
+
+.contacts-footer_item:hover {
+    text-decoration: underline;
+}
+
+.contacts-footer_item:not(:last-child) {
+    margin: 0px 0px 32px 0px;
+}
+
+.contacts-footer_item_map {
+    background: url("../img/Footer/Vector1.svg") 0 0 no-repeat
+}
+
+.contacts-footer_item_phone {
+    background: url("../img/Footer/Vector2.svg") left no-repeat;
+}
+
+.contacts-footer_item_email {
+    background: url("../img/Footer/Mail.svg") left no-repeat
+}
+
+
+.social-footer_item {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 767px) {
+    .footer_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
