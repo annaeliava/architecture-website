@@ -17,21 +17,49 @@
 
 <body>
     <header>
-        <div class="menu-bar">
+        <div class="menu-bar fixed-top">
             <div class="container">
                 <div class="row ">
                     <div class="col-xl-2 col-xl-3">
                         <img src="assets/img/index/logo.svg" alt="logo" class="logo">
                     </div>
+
                     <div class="col-xl-7 ml-auto align-self-center">
                         <nav>
                             <ul class="menu d-lg-inline-flex justify-content-end">
-                                <li class="menu_item"><a href="#">MAIN</a></li>
-                                <li class="menu_item"><a href="gallery.html" target="_blank">GALLERY</a></li>
-                                <li class="menu_item"><a href="project_page.html" target="_blank">PROJECTS</a></li>
-                                <li class="menu_item"><a href="company_certification.html"
-                                        target="_blank">CERTIFICATIONS</a></li>
-                                <li class="menu_item"><a href="contact_information.html" target="_blank">CONTACTS</a>
+                                <li class="menu_item">
+                                    <a href="#">MAIN</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="gallery.html" target="_blank">GALLERY</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="project_page.html" target="_blank">PROJECTS</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="company_certification.html" target="_blank">CERTIFICATIONS</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="contact_information.html" target="_blank">CONTACTS</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="menu__burger">
+                            <ul class="dropdown-menu">
+                                <li class="menu_item">
+                                    <a class="dropdown-item" href="#">MAIN</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a class="dropdown-item" href="gallery.html">GALLERY</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a class="dropdown-item" href="project_page.html">PROJECTS</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a class="dropdown-item" href="company_certification.html">CERTIFICATIONS</a>
+                                </li>
+                                <li class="menu_item">
+                                    <a class="dropdown-item" href="contact_information.html">CONTACTS</a>
                                 </li>
                             </ul>
                         </nav>
@@ -53,7 +81,6 @@
                     <button class="btn btn__gallery-right">
                         <img class="btn__arrow-pic" src="assets/img/index/main__arrow-right.svg" alt="ArrowRight">
                     </button>
-                    <img class="line" src="assets/img/index/main__btn-unknown-line.svg" alt="line">
                     <div class="slide-numbers">
                         <div class="container__slide-numbers">
                             <div class="row">
@@ -68,7 +95,7 @@
                     <figure class="main__figure">
                         <img class="main__pic" src="assets/img/index/main__gallery-pic.png" alt="building">
                         <div class="d-flex align-items-end flex-column bd-highlight mb-3">
-                            <div class="row card-img-overlay mt-auto p-2 bd-highlight main__viewer">
+                            <div class="row card-img-overlay mt-auto pt-2 bd-highlight main__viewer">
                                 <a href="project_page.html" class="col-8 main__viewer-link">VIEW PROJECT</a>
                                 <div class="col">
                                     <img src="assets/img/index/main__arrow-right.svg" alt="ArrowRight">
@@ -207,8 +234,10 @@
                         <div class="row no-gutters">
                             <div class="col d-flex justify-content-start">
                                 <div class="modaloknobutton">
-                                    <a class="vizovokna" href="#modalokno1">Send Email <img
-                                            src="assets/img/index/ourprojects__whitearrow.svg" alt="WhiteArrow"></a>
+                                    <a class="vizovokna" href="#modalokno1">Send Email 
+                                        <img
+                                            src="assets/img/index/ourprojects__whitearrow.svg" alt="WhiteArrow">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -221,7 +250,7 @@
             <div class="modalokno">
                 <a class="close" href="#">×</a>
                 <img class="success" src="assets/img/index/success.svg" alt="success">
-                <h2>Спасибо !</h2>
+                <h2>Спасибо!</h2>
                 <div class="modalokno_text">
                     Ваше сообщение отправлено мы свяжемся с вами в ближайшее время
                 </div>
@@ -244,13 +273,21 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="block">Information</div>
                     <ul class="menu-footer_list">
-                        <li class="menu-footer_item"><a href="#" class="menu-footer_link">Main</a></li>
-                        <li class="menu-footer_item"><a href="gallery.html" class="menu-footer_link">Gallery</a></li>
-                        <li class="menu-footer_item"><a href="project_page.html" class="menu-footer_link">Projects</a>
+                        <li class="menu-footer_item">
+                            <a href="#" class="menu-footer_link">Main</a>
                         </li>
-                        <li class="menu-footer_item"><a href="company_certification.html"
-                                class="menu-footer_link">Certifications</a></li>
-                        <li class="menu-footer_item"><a href="contact_information.html"
+                        <li class="menu-footer_item">
+                            <a href="gallery.html" class="menu-footer_link">Gallery</a>
+                        </li>
+                        <li class="menu-footer_item">
+                            <a href="project_page.html" class="menu-footer_link">Projects</a>
+                        </li>
+                        <li class="menu-footer_item">
+                            <a href="company_certification.html"
+                                class="menu-footer_link">Certifications</a>
+                        </li>
+                        <li class="menu-footer_item">
+                            <a href="contact_information.html"
                                 class="menu-footer_link">Contacts</a>
                         </li>
                     </ul>
@@ -267,10 +304,26 @@
                     <div class="block">Social Media</div>
                     <ul class="list-unstyled">
                         <ul class="list-unstyled d-flex flex-row justify-content-left">
-                            <li><a class="text-white px-2" href="#!"><i class="fab fa-twitter"></i></a></li>
-                            <li><a class="text-white px-2" href="#!"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a class="text-white px-2" href="#!"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a class="text-white ps-2" href="#!"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li>
+                                <a class="text-white px-2" href="#!">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white px-2" href="#!">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white px-2" href="#!">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-white ps-2" href="#!">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                            </li>
                         </ul>
                     </ul>
                 </div>
