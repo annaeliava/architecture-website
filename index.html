@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/index/icon__projectlorum.svg">
+    <link rel="shortcut icon" href="assets/img/index/icon__projectlorum.svg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <title>Project Lorum</title>
 </head>
@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row ">
                     <div class="col-xl-2 col-xl-3">
-                        <img src="img/index/logo.svg" alt="logo" class="logo">
+                        <img src="assets/img/index/logo.svg" alt="logo" class="logo">
                     </div>
                     <div class="col-xl-7 ml-auto align-self-center">
                         <nav>
@@ -48,37 +48,30 @@
                     <h1 class="main__title-1">PROJECT</h1>
                     <h1 class="main__title-2">Lorum</h1>
                     <button class="btn btn__gallery-left">
-                        <img class="btn__arrow-pic" src="img/index/main__arrow-left.svg" alt="ArrowLeft">
+                        <img class="btn__arrow-pic" src="assets/img/index/main__arrow-left.svg" alt="ArrowLeft">
                     </button>
                     <button class="btn btn__gallery-right">
-                        <img class="btn__arrow-pic" src="img/index/main__arrow-right.svg" alt="ArrowRight">
+                        <img class="btn__arrow-pic" src="assets/img/index/main__arrow-right.svg" alt="ArrowRight">
                     </button>
-                    <img class="line" src="img/index/main__btn-unknown-line.svg" alt="line">
+                    <img class="line" src="assets/img/index/main__btn-unknown-line.svg" alt="line">
                     <div class="slide-numbers">
                         <div class="container__slide-numbers">
                             <div class="row">
-                                <div class="col-1">
-                                    <div>0 <br /> 1</div>
-                                </div>
-                                <div class="col-2">
-                                    <img class="pic__slide-numbers" src="img/index/main__slide-numbers.svg"
-                                        alt="slide-numbers">
-                                </div>
-                                <div class="col-1">
-                                    <div>02</div>
-                                </div>
+                                <div class="col-1" id="first__slide-number">01</div>
+                                <div class="col-1">/</div>
+                                <div class="col-1" id="second__slide-number">02</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 card__viewer">
                     <figure class="main__figure">
-                        <img class="main__pic" src="img/index/main__gallery-pic.png" alt="building">
+                        <img class="main__pic" src="assets/img/index/main__gallery-pic.png" alt="building">
                         <div class="d-flex align-items-end flex-column bd-highlight mb-3">
                             <div class="row card-img-overlay mt-auto p-2 bd-highlight main__viewer">
-                                <a href="#" class="col-8 main__viewer-link">VIEW PROJECT</a>
+                                <a href="project_page.html" class="col-8 main__viewer-link">VIEW PROJECT</a>
                                 <div class="col">
-                                    <img src="img/index/main__arrow-right.svg" alt="ArrowRight">
+                                    <img src="assets/img/index/main__arrow-right.svg" alt="ArrowRight">
                                 </div>
                             </div>
                         </div>
@@ -90,11 +83,11 @@
         <div class="about">
             <div class="about-photo_container">
                 <div class="about-photo_container_col1">
-                    <img class="about-photo_container_col1-1" src="img/about/pictire_1.svg" alt="building pictire 1">
-                    <img class="about-photo_container_col1-2" src="img/about/pictire_2.svg" alt="building pictire 2">
+                    <img class="about-photo_container_col1-1" src="assets/img/about/pictire_1.svg" alt="building pictire 1">
+                    <img class="about-photo_container_col1-2" src="assets/img/about/pictire_2.svg" alt="building pictire 2">
                 </div>
                 <div class="about-photo_container_col2">
-                    <img class="about-photo_container_col2-1" src="img/about/pictire_3.svg" alt="building pictire 3">
+                    <img class="about-photo_container_col2-1" src="assets/img/about/pictire_3.svg" alt="building pictire 3">
                 </div>
             </div>
             <div class="about-text_container">
@@ -112,7 +105,7 @@
                                 Read more
                             </div>
                             <div class="about-text_container_more-arrow">
-                                <img src="img/about/ico-shape.svg" alt="ArrowRight">
+                                <img src="assets/img/about/ico-shape.svg" alt="ArrowRight">
                             </div>
                         </div>
                     </a>
@@ -146,7 +139,7 @@
         <!--блок Our Projects-->
         <h1 class="ourprojects__title">Our Projects</h1>
         <div class="container__ourprojects">
-            <div style="background-image:url(img/index/ourprojects__pic1.jpg)" class="ourprojects__pic-1">
+            <div style="background-image:url(assets/img/index/ourprojects__pic1.jpg)" class="ourprojects__pic-1">
                 <div class="bg__text">
                     <div class="bg__title">Sample Project</div>
                     <div class="btn__sampleprojects">
@@ -154,7 +147,7 @@
                             <div class="row no-gutters">
                                 <div class="col-10">View More</div>
                                 <div class="col-2">
-                                    <img src="img/index/ourprojects__whitearrow.svg" alt="WhiteArrow"
+                                    <img src="assets/img/index/ourprojects__whitearrow.svg" alt="WhiteArrow"
                                         class="ourprojects__pic-arrow">
                                 </div>
                             </div>
@@ -163,23 +156,23 @@
                 </div>
             </div>
             <div class="ourprojects__pic-2">
-                <img src="img/index/ourprojects__pic2.jpg" alt="Building-2">
+                <img src="assets/img/index/ourprojects__pic2.jpg" alt="Building-2">
             </div>
             <div class="ourprojects__pic-3">
-                <img src="img/index/ourprojects__pic3.jpg" alt="Building-3">
+                <img src="assets/img/index/ourprojects__pic3.jpg" alt="Building-3">
             </div>
             <div class="ourprojects__pic-4">
-                <img src="img/index/ourprojects__pic4.jpg" alt="Building-4">
+                <img src="assets/img/index/ourprojects__pic4.jpg" alt="Building-4">
             </div>
             <div class="ourprojects__pic-5">
-                <img src="img/index/ourprojects__pic5.jpg" alt="Building-5">
+                <img src="assets/img/index/ourprojects__pic5.jpg" alt="Building-5">
             </div>
             <div class="btn__projects">
                 <a href="project_page.html" class="allprojects__link">
                     <div class="row no-gutters">
                         <div class="col-10">All Projects</div>
                         <div class="col-2">
-                            <img src="img/index/ourprojects__whitearrow.svg" alt="WhiteArrow">
+                            <img src="assets/img/index/ourprojects__whitearrow.svg" alt="WhiteArrow">
                         </div>
                     </div>
                 </a>
@@ -208,14 +201,14 @@
                         </form>
                     </div>
                     <div class="col-4 d-flex align-self-end">
-                        <img src="img/index/contacts.jpg" alt="Contact us" class="img-contact">
+                        <img src="assets/img/index/contacts.jpg" alt="Contact us" class="img-contact">
                     </div>
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col d-flex justify-content-start">
                                 <div class="modaloknobutton">
                                     <a class="vizovokna" href="#modalokno1">Send Email <img
-                                            src="img/index/ourprojects__whitearrow.svg" alt="WhiteArrow"></a>
+                                            src="assets/img/index/ourprojects__whitearrow.svg" alt="WhiteArrow"></a>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +220,7 @@
         <div id="modalokno1" class="modaloknoview">
             <div class="modalokno">
                 <a class="close" href="#">×</a>
-                <img class="success" src="img/index/success.svg" alt="success">
+                <img class="success" src="assets/img/index/success.svg" alt="success">
                 <h2>Спасибо !</h2>
                 <div class="modalokno_text">
                     Ваше сообщение отправлено мы свяжемся с вами в ближайшее время
@@ -245,7 +238,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-logo shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
                         style="width: 150px; height: 150px;">
-                        <img src="img/footer/Group 11 1.png" class="logo" alt="logo">
+                        <img src="assets/img/footer/Group 11 1.png" class="logo" alt="logo">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
