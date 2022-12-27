@@ -48,8 +48,132 @@ li {
     width: 4.375rem;
     height: 3.7319rem;
     max-width: 100%;
+}   
+
+.menu-burger__container{
+    display: none;
 }
 
+.menu-burger {
+    display: none;
+}
+
+/*Header, адаптив*/
+@media (min-width: 0) and (max-width: 1023px) {
+    .nav__container {
+        display: none;
+    }
+
+    .menu-burger__container {
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu-burger {
+        display: block;
+    }
+
+    .header__container {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .header__logo-container {
+        width: 5rem;
+        height: 4rem;
+    }
+
+    .menu-btn {
+        margin: 0;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index:2;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .menu-btn span {
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(51, 51, 51, 1);
+        transition: all 0.5s;
+    }
+    .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 5px);
+    }
+    .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 5px);
+    }
+    
+    .menu-burger {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background: #FFFFFF;
+        transform: translateX(-100%);
+        transition: transform 0.5s; 
+    }
+    
+    .menu-burger.active {
+        transform: translateX(0);
+    }
+    .menu-burger li {
+        list-style-type: none;
+    }
+    
+    .menu-burger__items {
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    .menu-burger_item {
+        margin-bottom: 0.5rem;
+    }
+    
+    .menu-burger_item a {
+        font-family: 'roboto', sans-serif;
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: #333333;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        line-height: 0.75rem;
+        text-decoration: none;
+    }
+    
+    .menu-burger_item a:hover {
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    .menu-burger_item a:active {
+        color: black;
+    }
+    
+    .menu-btn.active span:nth-of-type(1) {
+        display: none;
+    }
+    
+    .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);  
+    }
+    
+    .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg); 
+    }
+}
 
 /*Блок Project Lorum*/
 
@@ -95,16 +219,16 @@ li {
     color: #333333;
 }
 
-.line {
-    width: 16.9375rem;
-}
-
 .slide-numbers {
     margin-top: 5.625rem;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5rem;
     color: #BDBDBD;
+}
+
+#first__slide-number {
+    margin-right: 0.5rem;
 }
 
 .main__pic {
@@ -115,6 +239,7 @@ li {
 }
 
 .main__viewer {
+    padding-left: 5px;
     width: 13.875rem;
     height: 4.4375rem;
     font-size: 0.75rem;
@@ -426,10 +551,6 @@ li {
 /*Блок Project Lorum, адаптив*/
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .line {
-        display: none;
-    }
-
     .btn__gallery-left {
         display: none;
     }
@@ -444,10 +565,6 @@ li {
 }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
-    .line {
-        display: none;
-    }
-
     .btn__gallery-left {
         display: none;
     }
