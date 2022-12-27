@@ -211,11 +211,16 @@ li {
     color: #333333;
 }
 
+.btn__gallery-left:hover,
+.btn__gallery-right:hover {
+    background: #F9F9F9;
+}
+
 .btn__gallery-right {
     width: 3.309375rem;
     height: 3.3125rem;
     border: 0.0625rem solid #F2F2F2;
-    background: #F9F9F9;
+    background: #FFFFFF;
     color: #333333;
 }
 
