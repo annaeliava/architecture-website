@@ -97,7 +97,7 @@ li {
 
 @media (min-width: 0px) and (max-width: 767px) {
     .title_sampleprokect {
-        margin-top: 4.563rem;
+        margin-top: 16%;
         margin-bottom: 3.75rem;
     }
 
@@ -130,6 +130,12 @@ li {
 
     .container_sampleproject_img-2 {
         max-width: 100%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .title_sampleprokect {
+        margin-top: 16%;
     }
 }
 

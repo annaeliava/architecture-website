@@ -196,6 +196,10 @@ li {
 /* Адаптив. (Десктоп- от 1024px. Планшет- от 768 до 1023.мобилка- от 0 до 767): */
 /*планшет */
 @media (min-width: 768px) and (max-width: 1023px) {
+    .ourprojects__title {
+        margin-top: 16%;
+    }
+
     .sampleprojects_title {
         font-weight: 300;
         font-size: 40px;
@@ -216,6 +220,9 @@ li {
 
 /*  мобилка */
 @media (min-width: 0px) and (max-width: 767px) {
+    .ourprojects__title {
+        margin-top: 16%;
+    }
 
     .container_ourprojects-sampleproject1,
     .container_ourprojects-sampleproject2,
@@ -244,7 +251,6 @@ li {
     }
 
     .ourprojects-text_container_more {
-
         margin-top: 1px;
         margin-left: 2.5rem;
     }
